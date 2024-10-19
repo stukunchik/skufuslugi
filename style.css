@@ -1,0 +1,334 @@
+*{
+    font-family: arial;
+}
+
+/*index*/
+
+/*shapka*/
+
+.shapka{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid gray;
+    height: 64px;
+    display: inline-block;
+    font-size: x-large;
+    font-family: arial;
+    background-color: #fff;
+    z-index: 1;
+}
+.logo{
+    width: 900px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.avtoriza{
+    width: 900px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+.shapka p{
+    display: inline-block;
+    margin: 1rem;
+    color: #1f50e8;
+    text-decoration: none;
+    cursor: not-allowed;
+    unicode-bidi: isolate;
+}
+.shapka p:hover{
+    color: blue;
+    cursor: not-allowed;
+    unicode-bidi: isolate;
+}
+
+
+img{
+    vertical-align: middle;
+}
+.button{
+    transition: background-color .7s;
+    padding: 0.6rem 1rem;
+    background-color: #edf2fe;
+    border-radius: 1rem;
+    color: #0d4cd3;
+    font-size: large;
+    border: none;
+}
+.button:hover{
+    background-color: #0d4cd3;
+    color: white;
+}
+
+/*nav*/
+
+.nav{
+    margin: 64px 0 0 0;
+    background-color: #1f50e8;
+    text-align: center;
+    background-image: linear-gradient(182.54deg, #1F50E8 20.95%, #7996F0 134.42%);
+    padding-bottom: -20rem;
+}
+
+.navi{
+    display: inline-block;
+    text-align: left;
+    padding: 3rem 0;
+}
+
+.butt{
+    margin: 2.5rem 0.7rem 1rem;
+    padding: 0.5rem;
+    font-size: 16px;
+    background: none;
+    background-color: none;
+    border: none;
+    color: white;
+}
+
+.butt:hover{
+    color: #dddddd;
+    cursor: not-allowed;
+}
+
+.svin{
+    display: inline-block;
+}
+
+.svin img{
+     margin: -3rem -7rem 6rem 0;
+    width: 55%;
+}
+.sveen img{
+    margin: -3rem 0 6rem -7rem;
+    width: 55%;
+}
+.sveen{
+    opacity: 0;
+    display: inline-block;
+}
+
+.buttnavi{
+    margin: 0.229rem;
+    width: 32%;
+    color: #ffffff;
+    border-radius: 0.6rem;
+    border-bottom-left-radius: 0.2rem;
+    padding: 1rem;
+    background-color: #ffffff2b;
+    border: none;
+    font-size: 1rem;
+}
+
+.buttnavi:hover{
+    background-color: #ecf0f866;
+    cursor: not-allowed;
+}
+
+
+
+.buttnizi{
+    border-radius: 1.3rem;
+    border-top-left-radius: 0.2rem;
+    padding: 0.8rem 3.5rem;
+    border: none;
+    color: white;
+    background: linear-gradient(to bottom right, #1122bb, #3055c5);
+    font-size: 1rem;
+    margin: 0 0.4rem 0 0;
+}
+.buttnizi:hover{
+    background: linear-gradient(to bottom right, #2233dd, #3355dd);
+}
+
+.nav input{
+    display: block;
+    padding: 1rem 18rem;
+    border-radius: 0.4rem;
+    border: none;
+    cursor: not-allowed;
+    unicode-bidi: isolate;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+/*main*/
+
+.abv{
+
+    background: none;
+    border: none;
+}
+.bvg{
+
+    background: none;
+    border: none;
+}
+.vgd{
+
+    background: none;
+    border: none;
+}
+.gde{
+    background: none;
+    border: none;
+}
+
+
+.main{
+    height: 401px;
+}
+
+
+
+.main img{
+    border-radius: 1rem;
+    height: 16rem;
+}
+
+/*servisi*/
+
+.servisi{
+    padding: 1rem;
+    height: 592px;
+    background-color:#f8fbfb;
+    font-family: arial;
+
+}
+
+.gugugaga{
+    text-align: center;
+}
+
+
+
+
+.gugugaga img{
+    border-radius: 1rem;
+    height: 16rem;  
+}
+.gugugaga img:hover{
+    transition: transform 0.1s;
+    transform: scale(1.01);
+    z-index: 0;
+}
+.baton{
+    margin: 1rem;
+    padding: 0;
+    border-radius: 1rem;
+    text-align: center;
+    border: none;
+}
+.info{
+    height: 232px;
+    background-color: #eff5f9;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.infa{
+    display: inline-block;
+}
+.infa a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    margin: 2rem;
+}
+.infa a:hover{
+    color: black;
+}
+
+
+.infa img{
+    width: 2rem;
+    height: 2rem;
+}
+.infa button{
+    margin: 1rem;
+    background-color: gray;
+}
+
+
+
+
+
+
+
+/*autoriza*/
+
+.vse{
+    background-color: #e4ecfd;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.okno {
+    display: fixed;
+    top: 15%;
+    background-color: white;
+    margin: 5rem auto 30rem auto;
+    border-radius: 1rem;
+    font-family: arial;
+}
+
+.okno img {
+    width: 15rem;
+    margin: auto auto 1rem auto;
+}
+.okno-dialog {
+    padding: 2.5rem;
+    width: 20rem;
+}
+.okno-form form{
+    text-align: left;
+}
+
+
+.okno-form input {
+    background-color: #f4f7fa;
+    font-size: 1rem;
+    border:none;
+    border-radius: 0.6rem;
+    display: block;
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+.okno-form input:focus {
+    outline: none;
+    border: 0.14rem solid #6688ff;
+}
+.href{
+    margin: 0.5rem auto 3rem auto;
+    text-decoration: none;
+    color: blue;
+}
+.href:hover{
+    color: #2244ff;
+}
+.okno-form .btn {
+    background-color: #0d4cd3;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.6rem;
+    margin: 3rem auto 1rem auto;
+    padding: 1rem;
+    width: 100%;
+    display: block;
+}
+
+.okno-form .btn:hover{
+    background-color: #1155ee;
+}
+
+.fufs input{
+    background: rgba(238, 63, 88, .16);
+}
+
+.fufs p{
+    color: #ee3f58;
+}
